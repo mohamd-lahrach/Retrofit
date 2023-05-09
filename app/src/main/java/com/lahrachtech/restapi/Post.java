@@ -10,6 +10,12 @@ public class Post {
         return userId;
     }
 
+    public Post(Integer userId, String title, String body) {
+        this.userId = userId;
+        this.title = title;
+        this.body = body;
+    }
+
     public void setUserId(Integer userId) {
         this.userId = userId;
     }
